@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FontForge Live — Живая песочница шрифтов</title>
+    <meta name="description" content="Живая песочница шрифтов с эффектами. Все системные шрифты, цвет, стиль, кернинг. Всё в одном .exe.">
+    <meta name="keywords" content="font viewer font preview font sandbox typography tool portable hero684k">
+    <meta name="author" content="hero684k">
+    <meta name="theme-color" content="#8b5cf6">
+    <meta property="og:title" content="FontForge Live">
+    <meta property="og:description" content="Живая песочница шрифтов с эффектами">
+    <meta property="og:url" content="https://hero684k.github.io/FontForge-Live">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary: #8b5cf6; --bg: #020617; --card: #0f172a; --border: #1f2937; --text: #f8fafc; --gray: #94a3b8; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; }
+        h1 { font-size: 3rem; background: linear-gradient(135deg, #8b5cf6, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .tagline { color: var(--gray); font-size: 1.2rem; margin: 0.5rem 0 2rem; }
+        .btn { display: inline-block; background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; padding: 1rem 2.5rem; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.1rem; margin: 0.5rem; transition: transform 0.2s; }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-gh { background: var(--card); border: 1px solid var(--border); }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 3rem 0; text-align: left; }
+        .feat { background: var(--card); padding: 1.25rem; border-radius: 12px; border: 1px solid var(--border); }
+        .feat span { font-size: 1.5rem; }
+        .feat h3 { margin: 0.5rem 0; font-size: 1rem; }
+        .feat p { color: var(--gray); font-size: 0.85rem; }
+        footer { color: var(--gray); font-size: 0.8rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+        footer a { color: #8b5cf6; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 FontForge Live</h1>
+        <p class="tagline">Живая песочница шрифтов с эффектами</p>
+        
+        <a href="https://github.com/hero684k/FontForge-Live/releases/latest/download/FontForge.exe" class="btn">📥 Скачать .EXE</a>
+        <a href="https://github.com/hero684k/FontForge-Live" class="btn btn-gh">⭐ GitHub</a>
+
+        <div class="features">
+            <div class="feat"><span>🔤</span><h3>Все шрифты</h3><p>Системные шрифты в одной матрице</p></div>
+            <div class="feat"><span>🎨</span><h3>Цвет текста</h3><p>Любой цвет на выбор</p></div>
+            <div class="feat"><span>📐</span><h3>Размер</h3><p>От 14 до 45px</p></div>
+            <div class="feat"><span>✍️</span><h3>Начертание</h3><p>Жирный, курсив, подчёркнутый</p></div>
+            <div class="feat"><span>📏</span><h3>Кернинг</h3><p>Межсимвольный интервал</p></div>
+            <div class="feat"><span>💾</span><h3>Экспорт</h3><p>Сохранение в PNG</p></div>
+        </div>
+
+        <footer>
+            <p>© 2025 <a href="https://github.com/hero684k">hero684k</a> | MIT License</p>
+        </footer>
+    </div>
+</body>
+</html>
